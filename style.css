@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F8F9FA;
 }
 
 button {
@@ -9,9 +10,14 @@ button {
     width: 7vw;
     height: 3vh;
     text-align: center;
-    
 }
 
+article {
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 10vw;
+    justify-content: center;
+}
 
 .mainImg {
     height: 60vh;
@@ -29,12 +35,19 @@ button {
     text-align: center;
   }
 
+  .container2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6vh;
+  }
+
   .center1 {
     position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 200%;
   }
   .center2 {
     position: absolute;
@@ -49,4 +62,12 @@ button {
     padding-left: 10vw;
     padding-right: 60vw;
   }
+
+.fa-6x {
+    padding-left: 2vw;
+}
+
+.signIn {
+    padding: 1px;
+}
   
